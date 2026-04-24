@@ -158,69 +158,7 @@ Run a syntax check:
 python -m py_compile app.py hand_control\config.py hand_control\desktop_control.py hand_control\gestures.py hand_control\hand_tracking.py hand_control\main_window.py
 ```
 
-## What To Upload To GitHub
 
-Upload these files and folders:
-
-- `.gitignore`
-- `README.md`
-- `requirements.txt`
-- `app.py`
-- `hand_control/`
-- `models/README.md`
-
-Do not upload these generated or local files:
-
-- `.venv/`
-- `__pycache__/`
-- `*.pyc`
-- `data/settings.json`
-- `models/*.zip`
-- `models/hand_landmarker.task`
-
-Optional model note:
-
-- You can upload `models/hand_landmarker.task` only if you want the repository to be fully offline-ready and the file size/license are acceptable for your GitHub repo.
-- The cleaner GitHub option is to keep the model out of Git and use the download command above.
-
-## GitHub Commands
-
-Initialize Git:
-
-```powershell
-git init
-```
-
-Check files before committing:
-
-```powershell
-git status
-```
-
-Stage the project:
-
-```powershell
-git add .
-```
-
-Commit the first version:
-
-```powershell
-git commit -m "Initial Aurora Hand Control app"
-```
-
-Connect your GitHub repository:
-
-```powershell
-git remote add origin <your-github-repository-url>
-```
-
-Push to GitHub:
-
-```powershell
-git branch -M main
-git push -u origin main
-```
 
 ## License
 
