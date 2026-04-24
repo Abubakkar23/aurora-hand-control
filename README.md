@@ -27,6 +27,7 @@ Aurora Hand Control uses a webcam, OpenCV, MediaPipe, PySide6, and PyAutoGUI to 
 ```text
   app.py
   requirements.txt
+  README.md
   hand_control/
     config.py
     desktop_control.py
@@ -34,8 +35,7 @@ Aurora Hand Control uses a webcam, OpenCV, MediaPipe, PySide6, and PyAutoGUI to 
     hand_tracking.py
     main_window.py
   models/
-    hand_landmarker.task
-    README.md
+    hand_landmarker.task    
 ```
 
 ## Requirements
